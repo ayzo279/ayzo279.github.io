@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.8c88a1e4.chunk.css",
-  "main.js": "/static/js/main.68747121.chunk.js",
-  "main.js.map": "/static/js/main.68747121.chunk.js.map",
+  "main.css": "/static/css/main.89ff899e.chunk.css",
+  "main.js": "/static/js/main.97dc612f.chunk.js",
+  "main.js.map": "/static/js/main.97dc612f.chunk.js.map",
   "static/css/1.eed8ebc3.chunk.css": "/static/css/1.eed8ebc3.chunk.css",
   "static/js/1.69085753.chunk.js": "/static/js/1.69085753.chunk.js",
   "static/js/1.69085753.chunk.js.map": "/static/js/1.69085753.chunk.js.map",
@@ -22,8 +22,8 @@
   "static/media/lowellgo.png": "/static/media/lowellgo.eab37906.png",
   "static/media/mslogo.png": "/static/media/mslogo.94a197e0.png",
   "static/css/1.eed8ebc3.chunk.css.map": "/static/css/1.eed8ebc3.chunk.css.map",
-  "static/css/main.8c88a1e4.chunk.css.map": "/static/css/main.8c88a1e4.chunk.css.map",
+  "static/css/main.89ff899e.chunk.css.map": "/static/css/main.89ff899e.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.002ae92980dad670f5801ce9166e5daf.js": "/precache-manifest.002ae92980dad670f5801ce9166e5daf.js",
+  "precache-manifest.a7b9d34c2be31b8c5822d3ebd2a5259a.js": "/precache-manifest.a7b9d34c2be31b8c5822d3ebd2a5259a.js",
   "service-worker.js": "/service-worker.js"
 }
