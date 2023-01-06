@@ -1,38 +1,247 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: MontserratSB;
+    src: url('./assets/font/Montserrat-SemiBold.ttf');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+    font-family: Montserrat;
+    src: url('./assets/font/Montserrat-Regular.ttf');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+    font-family: MontserratBold;
+    src: url('./assets/font/Montserrat-Bold.ttf');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+    font-family: MontserratLight;
+    src: url('./assets/font/Montserrat-Light.ttf');
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+    font-family: MontserratMed;
+    src: url('./assets/font/Montserrat-Medium.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+}
+
+body {
+    font-weight: 400;
+    overflow-x: hidden;
+    position: relative;
+    background-color: #f0f0f0 !important;
+    color: black;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 35px !important;
+    font-family: MontserratLight !important;
+}
+
+h2 {
+    font-size: 35px !important;
+    font-family: MontserratMed !important;
+    padding-bottom: 5px;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    font-size: 25px !important;
+    font-family: MontserratLight;
+    padding-bottom: 5px;
+}
+
+h3::after {
+    content: '';
+    flex: 1;
+    margin-left: 1rem;
+    height: 2px;
+    background-color: #000;
+}
+
+h4 {
+    font-family: MontserratSB;
+    font-size: 30px !important;
+}
+.about {
+    color:#6179e4;
+}
+
+.prof-img {
+    display: block;
+    margin: 30px auto 0 auto;
+    padding-right: 100px !important;
+    width: 25% !important;
+}
+
+nav.navbar {
+    padding: 20px 0;
+    width: 100%;
+    top: 0;
+    z-index: 4269;
+    transition: 0.32 ease-in-out;
+}
+
+
+nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-weight: 400;
+    color: black;
+    letter-spacing: 0.8px;
+    padding: 0 25px;
+    font-size: 20px;
+}
+
+
+.branding {
+    line-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-vl {
+    border-left:2px solid black;
+    height:35px;
+}
+
+.sub-brand {
+    font-family: 'MontserratLight' !important;
+    color: #6179e4 !important;
+}
+
+.main-brand {
+    font-family: 'MontserratSB' !important;
+    font-size: 25px !important;
+}
+
+
+nav.navbar .navbar-nav a.nav-link.navbar-link.active {
+    color: #6179e4;
+}
+
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
+    color: #71f8b5;
+}
+
+.banner {
+    margin: 0 50px 0 50px;
+    padding: 100px 10px 0 10px;
+    display: flex;
+    width: 100%;
+    min-height: 85vh;
+}
+
+.projects {
+    color:black;
+    max-width: 85vw !important;
+}
+
+.amplifi-banner {
+    background-color: #273140;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cidi-banner {
+    background-color: #0d2f31;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-card1 {
+    background-color: #d2dce9;
+    min-height: 50vh;
+    max-width: 85vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 70px;
+}
+
+.project-card2 {
+    background-color: #d2dce9;
+    min-height: 50vh;
+    max-width: 85vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 70px;
+}
+
+.project-desc {
+    color: #252a2c;
+    min-height: 20vh;
+    padding: 30px 50px 20px 55px !important;
+    font-size: 18px;
+    line-height: 1.7;
+    font-family: MontserratLight;
+}
+
+.proj-links {
+    color: #252a2c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    margin: 0px 20px 0 20px !important;
+    text-align: center !important;
+}
+
+.proj-links svg, .swe-card svg {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.swe-card {
+    background-color: #d2dce9;
+    min-height: 75vh;
+    max-width: 80vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0 35px 70px 35px;
+    padding: 0px !important;
+}
+
+
+.p5 {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    max-width: 250px !important;
+
+}
+
+.design {
+
+    display: inline-block;
+    position:relative;
+    max-width: 250px;
+    max-height: 357px;
+    margin: 10px 10px 40px 10px;
+}
+
+.design-desc {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    color: white;
+    position: absolute;
+    display: inline-block;
+    padding: 5vw 1.5vw 0 1.5vw;
+    text-align: center !important;
+    transition: opacity .5s;
+}
+.design-desc:hover {
+    opacity: 1;
+    transition: opacity .5s;
 }
