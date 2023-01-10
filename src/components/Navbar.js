@@ -1,5 +1,5 @@
 import { Navbar, Container, Nav} from "react-bootstrap";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 import resume from '../assets/img/Zhuo, Andy - Resume.pdf'
 
@@ -44,17 +44,6 @@ export const NavBar = () => {
                 <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => ActivateLink('home')}>home</Nav.Link>
                 <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => ActivateLink('projects')}>projects</Nav.Link>
                 <Nav.Link href={resume} className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => ActivateLink('resume')} download>resume</Nav.Link>
-                {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                  <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">
-                    Another action
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.4">
-                    Separated link
-                  </NavDropdown.Item>
-                </NavDropdown> */}
               </Nav>
             </Navbar.Collapse>
           </Container>

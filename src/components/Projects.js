@@ -23,39 +23,41 @@ export const Projects = () => {
             <h3>UX/UI Design</h3>
             <Row className="project-card1 gx-0">
                 <Col sm={4} className="amplifi-banner">
-                    <Image src={amplifi}/>
+                    <Image src={amplifi} style={{width:"90%"}}/>
                 </Col>
                 <Col sm={8}>
                     <Row>
                     <Image src={proto}/>
                     </Row>
                     <Row>
-                        <Col sm={8} className="project-desc">
+                        <Col xs = {12} sm={12} m={12} l ={8} xl={8} className="project-desc">
                         <h4>amplifi</h4>
                         <p>
                         A mobile application to provide households a way of monitoring and reducing their energy bills
                         </p>
                         </Col>
-                        <Col sm ={1} className="proj-links">
-                            <Row>
-                            <a href="https://docs.google.com/document/d/1MGwjNRlvU6susEn1gPJ-SQPASgiAkyya94xq4B2zSnk/edit?usp=sharing" style={{textDecoration:'none', color:'inherit'}}>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="4.5em" height="4.5em" class="bi bi-file-earmark-text" style={{minWidth:"25px" ,borderStyle:"solid", padding:"5px", marginBottom:"2px", borderRadius:"0.5em", borderWidth:"0.2em"}} viewBox="0 0 16 16">
-                            <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
-                            <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
-                            </svg>
-                            <span>Details</span>
-                            </a>
-                            </Row>
-                        </Col>
-                        <Col sm ={1} className="proj-links">
-                            <Row>
-                            <a href="https://www.figma.com/file/0Mn3bVZZvaF31vEYpNHtqu/P3-Final-Prototype?node-id=0%3A1&t=sFWkMJhuDR5hhkVv-1" style={{textDecoration:'none', color:'inherit'}}>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="4.5em" height="4.5em" style={{minWidth:"25px", borderStyle:"solid", padding:"5px", marginBottom:"2px", borderRadius:"0.5em", borderWidth:"0.2em"}} viewBox="0 0 16 16">
-                            <path d="M5 1v8H1V1h4zM1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1zm13 2v5H9V2h5zM9 1a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9zM5 13v2H3v-2h2zm-2-1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H3zm12-1v2H9v-2h6zm-6-1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H9z"/>
-                            </svg>
-                            <span>Prototypes</span>
-                            </a>
-                            </Row>
+                        <Col xs={3} sm={2} m={2} l={1} xl={1} className="proj-links">
+                            <Col className="proj-links">
+                                <Row>
+                                <a href="https://docs.google.com/document/d/1MGwjNRlvU6susEn1gPJ-SQPASgiAkyya94xq4B2zSnk/edit?usp=sharing" style={{textDecoration:'none', color:'inherit'}}>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="4.5em" height="4.5em" style={{minWidth:"25px" ,borderStyle:"solid", padding:"5px", marginBottom:"2px", borderRadius:"0.5em", borderWidth:"0.2em"}} viewBox="0 0 16 16">
+                                <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+                                <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+                                </svg>
+                                <span>Details</span>
+                                </a>
+                                </Row>
+                            </Col>
+                            <Col className="proj-links">
+                                <Row>
+                                <a href="https://www.figma.com/file/0Mn3bVZZvaF31vEYpNHtqu/P3-Final-Prototype?node-id=0%3A1&t=sFWkMJhuDR5hhkVv-1" style={{textDecoration:'none', color:'inherit'}}>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="4.5em" height="4.5em" style={{minWidth:"25px", borderStyle:"solid", padding:"5px", marginBottom:"2px", borderRadius:"0.5em", borderWidth:"0.2em"}} viewBox="0 0 16 16">
+                                <path d="M5 1v8H1V1h4zM1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1zm13 2v5H9V2h5zM9 1a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9zM5 13v2H3v-2h2zm-2-1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H3zm12-1v2H9v-2h6zm-6-1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H9z"/>
+                                </svg>
+                                <span>Prototypes</span>
+                                </a>
+                                </Row>
+                            </Col>
                         </Col>
                     </Row>
                 </Col>
@@ -66,16 +68,17 @@ export const Projects = () => {
                     <Image src={proto2}/>
                     </Row>
                     <Row>
-                        <Col sm={8} className="project-desc">
+                        <Col xs = {12} sm={12} m={12} l ={8} xl={8} className="project-desc">
                         <h4>USAID CIDI Donation Guide</h4>
                         <p>
                         Webpage redesign to better communicate the efficacy of cash donations
                         </p>
                         </Col>
-                        <Col sm ={1} className="proj-links">
+                        <Col xs={3} sm={2} m={2} l={1} xl={1} className="proj-links">
+                        <Col>
                             <Row>
-                            <a href="https://docs.google.com/document/d/1MGwjNRlvU6susEn1gPJ-SQPASgiAkyya94xq4B2zSnk/edit?usp=sharing" style={{textDecoration:'none', color:'inherit'}}>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="4.5em" height="4.5em" class="bi bi-file-earmark-text" style={{minWidth:"25px" ,borderStyle:"solid", padding:"5px", marginBottom:"2px", borderRadius:"0.5em", borderWidth:"0.2em"}} viewBox="0 0 16 16">
+                            <a href="https://docs.google.com/document/d/1TImzhc7mZ-a7JSI5NGpmAj3JFb4W75Wj_6n6MGaQmWs/edit?usp=sharing" style={{textDecoration:'none', color:'inherit'}}>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="4.5em" height="4.5em" class="bi bi-file-earmark-text" style={{minWidth:"25px" ,borderStyle:"solid", padding:"5px", borderRadius:"0.5em", borderWidth:"0.2em"}} viewBox="0 0 16 16">
                             <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
                             <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
                             </svg>
@@ -83,15 +86,16 @@ export const Projects = () => {
                             </a>
                             </Row>
                         </Col>
-                        <Col sm ={1} className="proj-links">
+                        <Col >
                             <Row>
-                            <a href="https://www.figma.com/file/0Mn3bVZZvaF31vEYpNHtqu/P3-Final-Prototype?node-id=0%3A1&t=sFWkMJhuDR5hhkVv-1" style={{textDecoration:'none', color:'inherit'}}>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="4.5em" height="4.5em" style={{minWidth:"25px", borderStyle:"solid", padding:"5px", marginBottom:"2px", borderRadius:"0.5em", borderWidth:"0.2em"}} viewBox="0 0 16 16">
+                            <a href="https://www.figma.com/file/Cb6Eb6gmQtMSZfS8Vp2OUB/USAID-%2B-T4SG-Design?node-id=1%3A2&t=VzXlO1iK6d6IfnhG-1" style={{textDecoration:'none', color:'inherit'}}>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="4.5em" height="4.5em" style={{minWidth:"25px", borderStyle:"solid", padding:"5px", borderRadius:"0.5em", borderWidth:"0.2em"}} viewBox="0 0 16 16">
                             <path d="M5 1v8H1V1h4zM1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1zm13 2v5H9V2h5zM9 1a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9zM5 13v2H3v-2h2zm-2-1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H3zm12-1v2H9v-2h6zm-6-1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H9z"/>
                             </svg>
                             <span>Prototypes</span>
                             </a>
                             </Row>
+                        </Col>
                         </Col>
                     </Row>
                 </Col>
@@ -116,7 +120,7 @@ export const Projects = () => {
                         <span style={{fontSize:"12px"}}>View Code</span>
                     </Row>
                 </Col>
-                <Col className="swe-card">
+                <Col className="swe-card gx-0">
                 <Row>
                         <Image src={crim}/>
                     </Row>
@@ -141,7 +145,9 @@ export const Projects = () => {
                         <div className="design-desc">
                             <h4>echo.</h4>
                             <p style={{fontFamily:"MontserratLight", fontSize: "14px"}}>an interactive sound and dance visualizer using ml.js to track and replay a user’s movements to a selected song</p>
-                            <p style={{fontFamily: "MontserratSB", textDecoration:"underline", fontSize: "12px"}}>view</p>
+                            <a href="https://www.oppr.org/s/2obFcAqp" style={{textDecoration:'none', color:'inherit'}}>
+                            <p style={{fontFamily: "MontserratSB", textDecoration:"underline", fontSize: "12px", margin:"50px 0 0 0"}}>view</p>
+                            </a>
                         </div>
                     </div>
                 </Col>
@@ -151,7 +157,9 @@ export const Projects = () => {
                     <div className="design-desc">
                         <h4>deluge</h4>
                         <p style={{fontFamily:"MontserratLight"}}>data visualization piece for mental health awareness using data obtained from the CDC</p>
+                        <a href="https://www.oppr.org/s/m7Coi2SJ" style={{textDecoration:'none', color:'inherit'}}>
                         <p style={{fontFamily: "MontserratSB", textDecoration:"underline", fontSize: "12px", margin:"50px 0 0 0"}}>view</p>
+                        </a>
                     </div>
                     </div>
                 </Col>
@@ -161,7 +169,9 @@ export const Projects = () => {
                     <div className="design-desc">
                         <h4>emotion in music</h4>
                         <p style={{fontFamily:"MontserratLight"}}>sound visualizer using data from UC Berkelery study to depict emotional associations with select musical pieces</p>
+                        <a href="https://www.oppr.org/s/RgcrmhNf" style={{textDecoration:'none', color:'inherit'}}>
                         <p style={{fontFamily: "MontserratSB", textDecoration:"underline", fontSize: "12px", margin:"50px 0 0 0"}}>view</p>
+                        </a>
                     </div>
                     </div>
                 </Col>
@@ -171,7 +181,9 @@ export const Projects = () => {
                     <div className="design-desc">
                         <h4>starcolor</h4>
                         <p style={{fontFamily:"MontserratLight"}}>a color-matching minigame</p>
+                        <a href="https://www.oppr.org/s/IOS4FTjX" style={{textDecoration:'none', color:'inherit'}}>
                         <p style={{fontFamily: "MontserratSB", textDecoration:"underline", fontSize: "12px", margin:"50px 0 0 0"}}>view</p>
+                        </a>
                     </div>
                     </div>
                 </Col>

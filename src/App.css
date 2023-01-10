@@ -81,9 +81,10 @@ h4 {
 
 .prof-img {
     display: block;
-    margin: 30px auto 0 auto;
+    margin: 50px auto 30px auto;
     padding-right: 100px !important;
     width: 25% !important;
+    min-width: 350px;
 }
 
 nav.navbar {
@@ -137,7 +138,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
 
 .banner {
     margin: 0 50px 0 50px;
-    padding: 100px 10px 0 10px;
+    padding: 80px 10px 0 10px;
     display: flex;
     width: 100%;
     min-height: 85vh;
@@ -194,8 +195,12 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
     justify-content: center;
     font-family: Montserrat;
     font-size: 12px;
-    margin: 0px 20px 0 20px !important;
+    margin: 0px auto 0 auto !important;
     text-align: center !important;
+}
+
+.proj-links a {
+    margin: 0px 40px 0 0px !important;
 }
 
 .proj-links svg, .swe-card svg {
