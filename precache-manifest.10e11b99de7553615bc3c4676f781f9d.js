@@ -64,16 +64,16 @@ self.__precacheManifest = [
     "url": "/static/media/starcolor.723e56cf.png"
   },
   {
+    "revision": "f7213526ec9296ff43426bfe3eae8926",
+    "url": "/static/media/Montserrat-Regular.f7213526.ttf"
+  },
+  {
     "revision": "a8de8ffe262db7e277deb8f1c439c518",
     "url": "/static/media/Montserrat-Bold.a8de8ffe.ttf"
   },
   {
     "revision": "31e34a4dc526ffb104e2d988f6f52516",
     "url": "/static/media/Montserrat-SemiBold.31e34a4d.ttf"
-  },
-  {
-    "revision": "f7213526ec9296ff43426bfe3eae8926",
-    "url": "/static/media/Montserrat-Regular.f7213526.ttf"
   },
   {
     "revision": "9e52b00d737492e337b2498406aef98f",
