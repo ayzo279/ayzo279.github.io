@@ -1,7 +1,7 @@
 import { Navbar, Container, Nav} from "react-bootstrap";
 import React, { useState, useEffect } from "react";
 
-import resume from '../assets/img/Zhuo, Andy - Resume.pdf'
+import resume from '../assets/img/Andy_Zhuo_resume.pdf'
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');

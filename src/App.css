@@ -62,14 +62,14 @@ h3 {
     font-family: MontserratLight;
     padding-bottom: 5px;
 }
-
+/* 
 h3::after {
     content: '';
     flex: 1;
     margin-left: 1rem;
     height: 2px;
     background-color: #000;
-}
+} */
 
 h4 {
     font-family: MontserratSB;
@@ -127,13 +127,8 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
     font-size: 25px !important;
 }
 
-
-nav.navbar .navbar-nav a.nav-link.navbar-link.active {
-    color: #6179e4;
-}
-
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
-    color: #71f8b5;
+    color: #6179e4;
 }
 
 .banner {
