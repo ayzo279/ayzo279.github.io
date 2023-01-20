@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.4d807ef9.chunk.css",
-  "main.js": "/static/js/main.f1e2522a.chunk.js",
-  "main.js.map": "/static/js/main.f1e2522a.chunk.js.map",
+  "main.js": "/static/js/main.e96d20aa.chunk.js",
+  "main.js.map": "/static/js/main.e96d20aa.chunk.js.map",
   "static/css/1.eed8ebc3.chunk.css": "/static/css/1.eed8ebc3.chunk.css",
   "static/js/1.69085753.chunk.js": "/static/js/1.69085753.chunk.js",
   "static/js/1.69085753.chunk.js.map": "/static/js/1.69085753.chunk.js.map",
@@ -18,12 +18,12 @@
   "static/media/deluge.png": "/static/media/deluge.67861fa6.png",
   "static/media/music.png": "/static/media/music.1cec33c8.png",
   "static/media/starcolor.png": "/static/media/starcolor.723e56cf.png",
-  "static/media/App.css": "/static/media/Montserrat-Medium.5f797490.ttf",
-  "static/media/lowellgo.png": "/static/media/lowellgo.eab37906.png",
+  "static/media/App.css": "/static/media/Montserrat-Light.9e52b00d.ttf",
+  "static/media/lowell.png": "/static/media/lowell.5943cfd9.png",
   "static/media/mslogo.png": "/static/media/mslogo.94a197e0.png",
   "static/css/1.eed8ebc3.chunk.css.map": "/static/css/1.eed8ebc3.chunk.css.map",
   "static/css/main.4d807ef9.chunk.css.map": "/static/css/main.4d807ef9.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.1c0880ff91acd5a23f058a8b4768201b.js": "/precache-manifest.1c0880ff91acd5a23f058a8b4768201b.js",
+  "precache-manifest.9dffc9325e5b3adba9e7537809453e2e.js": "/precache-manifest.9dffc9325e5b3adba9e7537809453e2e.js",
   "service-worker.js": "/service-worker.js"
 }
