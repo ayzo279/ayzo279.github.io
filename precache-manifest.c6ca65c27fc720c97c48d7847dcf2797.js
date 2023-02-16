@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8d2039d98873e3215ce7",
-    "url": "/static/css/main.bbfd422f.chunk.css"
+    "revision": "0f2c58e48735cefd3f27",
+    "url": "/static/css/main.04f902f7.chunk.css"
   },
   {
-    "revision": "8d2039d98873e3215ce7",
-    "url": "/static/js/main.8d2039d9.chunk.js"
+    "revision": "0f2c58e48735cefd3f27",
+    "url": "/static/js/main.0f2c58e4.chunk.js"
   },
   {
     "revision": "69085753fa23843624a5",
@@ -64,6 +64,10 @@ self.__precacheManifest = [
     "url": "/static/media/starcolor.723e56cf.png"
   },
   {
+    "revision": "a8de8ffe262db7e277deb8f1c439c518",
+    "url": "/static/media/Montserrat-Bold.a8de8ffe.ttf"
+  },
+  {
     "revision": "f7213526ec9296ff43426bfe3eae8926",
     "url": "/static/media/Montserrat-Regular.f7213526.ttf"
   },
@@ -74,10 +78,6 @@ self.__precacheManifest = [
   {
     "revision": "9e52b00d737492e337b2498406aef98f",
     "url": "/static/media/Montserrat-Light.9e52b00d.ttf"
-  },
-  {
-    "revision": "a8de8ffe262db7e277deb8f1c439c518",
-    "url": "/static/media/Montserrat-Bold.a8de8ffe.ttf"
   },
   {
     "revision": "5f797490f806b3b229299f0a66de89c9",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/static/media/mslogo.94a197e0.png"
   },
   {
-    "revision": "d3c2679b40a57c73c41084e93da83755",
+    "revision": "6c5c8137dbe53cc2eefa6a8163e61426",
     "url": "/index.html"
   }
 ];
