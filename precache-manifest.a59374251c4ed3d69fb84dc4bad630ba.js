@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "81522f4fe07f7ef0b300",
-    "url": "/static/css/main.dcb10a4f.chunk.css"
+    "revision": "443e16387a2584a69dfc",
+    "url": "/static/css/main.fbf0e972.chunk.css"
   },
   {
-    "revision": "81522f4fe07f7ef0b300",
-    "url": "/static/js/main.81522f4f.chunk.js"
+    "revision": "443e16387a2584a69dfc",
+    "url": "/static/js/main.443e1638.chunk.js"
   },
   {
-    "revision": "69085753fa23843624a5",
-    "url": "/static/css/1.eed8ebc3.chunk.css"
+    "revision": "36d2be3cc15c274cdb9f",
+    "url": "/static/css/1.6b199b27.chunk.css"
   },
   {
-    "revision": "69085753fa23843624a5",
-    "url": "/static/js/1.69085753.chunk.js"
+    "revision": "36d2be3cc15c274cdb9f",
+    "url": "/static/js/1.36d2be3c.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -26,6 +26,46 @@ self.__precacheManifest = [
   {
     "revision": "69e325daf139c265f39192bc628c4bc4",
     "url": "/static/media/profile.69e325da.png"
+  },
+  {
+    "revision": "e1593794fc0b0b503a04ddf4f233d3fe",
+    "url": "/static/media/profile2.e1593794.png"
+  },
+  {
+    "revision": "9e52b00d737492e337b2498406aef98f",
+    "url": "/static/media/Montserrat-Light.9e52b00d.ttf"
+  },
+  {
+    "revision": "31e34a4dc526ffb104e2d988f6f52516",
+    "url": "/static/media/Montserrat-SemiBold.31e34a4d.ttf"
+  },
+  {
+    "revision": "f7213526ec9296ff43426bfe3eae8926",
+    "url": "/static/media/Montserrat-Regular.f7213526.ttf"
+  },
+  {
+    "revision": "5f797490f806b3b229299f0a66de89c9",
+    "url": "/static/media/Montserrat-Medium.5f797490.ttf"
+  },
+  {
+    "revision": "a8de8ffe262db7e277deb8f1c439c518",
+    "url": "/static/media/Montserrat-Bold.a8de8ffe.ttf"
+  },
+  {
+    "revision": "f8a7a2593c572805a3e6f447a7ee32cb",
+    "url": "/static/media/lightbulb2.f8a7a259.png"
+  },
+  {
+    "revision": "b61a2ece61a0ceaebc1b94702049f1b5",
+    "url": "/static/media/lightswitch.b61a2ece.png"
+  },
+  {
+    "revision": "4bc1f892e46327aeebfa8db694231953",
+    "url": "/static/media/lightbulb-2.4bc1f892.png"
+  },
+  {
+    "revision": "6e7db3f686c259af227a93d86ac3101d",
+    "url": "/static/media/lightswitch2.6e7db3f6.png"
   },
   {
     "revision": "1b3ec22b93d80a8cf583d65a46f7dd88",
@@ -64,26 +104,6 @@ self.__precacheManifest = [
     "url": "/static/media/starcolor.723e56cf.png"
   },
   {
-    "revision": "31e34a4dc526ffb104e2d988f6f52516",
-    "url": "/static/media/Montserrat-SemiBold.31e34a4d.ttf"
-  },
-  {
-    "revision": "a8de8ffe262db7e277deb8f1c439c518",
-    "url": "/static/media/Montserrat-Bold.a8de8ffe.ttf"
-  },
-  {
-    "revision": "f7213526ec9296ff43426bfe3eae8926",
-    "url": "/static/media/Montserrat-Regular.f7213526.ttf"
-  },
-  {
-    "revision": "5f797490f806b3b229299f0a66de89c9",
-    "url": "/static/media/Montserrat-Medium.5f797490.ttf"
-  },
-  {
-    "revision": "9e52b00d737492e337b2498406aef98f",
-    "url": "/static/media/Montserrat-Light.9e52b00d.ttf"
-  },
-  {
     "revision": "5943cfd9dea4006242e49793a856e2ce",
     "url": "/static/media/lowell.5943cfd9.png"
   },
@@ -92,7 +112,7 @@ self.__precacheManifest = [
     "url": "/static/media/mslogo.94a197e0.png"
   },
   {
-    "revision": "47c90b2217c64857f10b7783c02d9bd8",
+    "revision": "c51a4fc5582fadf7039f194433f29d67",
     "url": "/index.html"
   }
 ];
