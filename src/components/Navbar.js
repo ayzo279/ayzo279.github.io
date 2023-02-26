@@ -1,7 +1,7 @@
 import { Navbar, Container, Nav} from "react-bootstrap";
 import React, { useState, useEffect } from "react";
 
-import resume from '../assets/img/Andy_Zhuo_resume.pdf'
+import resume from '../assets/img/Andy_Zhuo_resume.pdf';
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
@@ -41,8 +41,8 @@ export const NavBar = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ms-auto">
-                <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => ActivateLink('home')}>home</Nav.Link>
                 <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => ActivateLink('projects')}>projects</Nav.Link>
+                <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => ActivateLink('home')}>contact</Nav.Link>
                 <Nav.Link href={resume} className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => ActivateLink('resume')} download>resume</Nav.Link>
               </Nav>
             </Navbar.Collapse>

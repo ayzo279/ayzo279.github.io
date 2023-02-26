@@ -37,9 +37,18 @@ body {
     font-weight: 400;
     overflow-x: hidden;
     position: relative;
+
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.darkMode {
+    background-color: #292929 !important;
+    color: #f0f0f0 !important;
+}
+
+.lightMode {
     background-color: #f0f0f0 !important;
     color: black;
-    font-family: 'Montserrat', sans-serif !important;
 }
 
 h1 {
@@ -75,8 +84,106 @@ h4 {
     font-family: MontserratSB;
     font-size: 30px !important;
 }
+
+.darkMode .about {
+    color: #1adba1;
+}
+
 .about {
     color:#6179e4;
+}
+
+.bulb {
+    max-width: 40px;
+    position: absolute;
+    left: 50%;
+    top: -10px;
+    z-index: 4369;
+}
+
+.darkMode .bulb {
+    display: none;
+}
+
+.lightMode .bulb2 {
+    display: none;
+}
+
+.darkMode .bulb2 {
+    max-width: 40px;
+    position: absolute;
+    left: 50%;
+    top: -10px;
+    z-index: 4369;
+}
+
+.switch {
+    max-width: 100px;
+    max-height: 100px;
+    padding: 0;
+    border: none;
+    background: none;
+    z-index: 4369;
+}
+
+.lightMode .switchoff {
+    max-height: 200px;
+    position: absolute;
+    left: 53.5%;
+    top: -120px;
+    z-index: 4369;
+}
+
+.lightMode .switchon {
+    max-height: 200px;
+    position: absolute;
+    left: 53.5%;
+    top: -120px;
+    animation-name: switch;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    z-index: 4369;
+}
+
+.glow {
+    filter: drop-shadow(0 0 0.9rem rgb(219, 189, 19));
+}
+
+.darkMode .switchoff2 {
+    max-height: 200px;
+    position: absolute;
+    left: 53.5%;
+    top: -120px;
+    animation-name: switch2;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    z-index: 4369;
+}
+
+.darkMode .switchon2 {
+    max-height: 200px;
+    position: absolute;
+    left: 53.5%;
+    top: -120px;
+    z-index: 4369;
+}
+
+.darkMode .switchon, .darkMode .switchoff, .lightMode .switchon2, .lightMode .switchoff2{
+    display: none; 
+}
+
+@keyframes switch {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 10px); }
+    100% { transform: translate(0, 0px); }
+}
+
+@keyframes switch2 {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 10px); }
+    100% { transform: translate(0, 0px); }
 }
 
 .prof-img {
@@ -87,6 +194,22 @@ h4 {
     min-width: 350px;
 }
 
+.darkMode .prof-img {
+    display: none;
+}
+
+.prof-img2 {
+    display: none;
+}
+
+.darkMode .prof-img2 {
+    display: block;
+    margin: 50px auto 30px auto;
+    padding-right: 100px !important;
+    width: 25% !important;
+    min-width: 350px;    
+}
+
 nav.navbar {
     padding: 20px 0;
     width: 100%;
@@ -95,8 +218,15 @@ nav.navbar {
     transition: 0.32 ease-in-out;
 }
 
+.darkMode nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-weight: 400;
+    color: #f0f0f0;
+    letter-spacing: 0.8px;
+    padding: 0 25px;
+    font-size: 20px;
+}
 
-nav.navbar .navbar-nav .nav-link.navbar-link {
+.lightMode nav.navbar .navbar-nav .nav-link.navbar-link {
     font-weight: 400;
     color: black;
     letter-spacing: 0.8px;
@@ -112,9 +242,18 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
     align-items: center;
 }
 
+.darkMode .brand-vl {
+    border-left:2px solid #f0f0f0;
+    height: 35px;  
+}
+
 .brand-vl {
     border-left:2px solid black;
     height:35px;
+}
+
+.darkMode .sub-brand {
+    color: #1adba1 !important;
 }
 
 .sub-brand {
@@ -122,9 +261,20 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
     color: #6179e4 !important;
 }
 
-.main-brand {
+.lightMode .main-brand {
     font-family: 'MontserratSB' !important;
     font-size: 25px !important;
+    color: black !important;
+}
+
+.darkMode .main-brand {
+    font-family: 'MontserratSB' !important;
+    font-size: 25px !important;
+    color: #f0f0f0 !important;
+}
+
+.darkMode nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
+    color: #1adba1;
 }
 
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
@@ -140,7 +290,6 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
 }
 
 .projects {
-    color:black;
     max-width: 85vw !important;
 }
 
@@ -164,6 +313,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
     max-width: 85vw;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-bottom: 70px;
+    transition: transform .2s;
 }
 
 .project-card2 {
@@ -172,6 +322,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
     max-width: 85vw;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-bottom: 70px;
+    transition: transform .2s;
 }
 
 .project-desc {
@@ -209,6 +360,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 0 35px 70px 35px;
     padding: 0px !important;
+    transition: transform 0.2s;
 }
 
 
@@ -219,7 +371,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
 }
 
 .design {
-
+    background-color: rgba(250, 250, 250, 0.05);
     display: inline-block;
     position:relative;
     max-width: 250px;
@@ -234,7 +386,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
     opacity: 0;
     top: 0;
     left: 0;
-    color: white;
+    color: #f0f0f0;
     position: absolute;
     display: inline-block;
     padding: 5vw 1.5vw 0 1.5vw;
@@ -244,4 +396,87 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
 .design-desc:hover {
     opacity: 1;
     transition: opacity .5s;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.darkMode .contact a {
+    color: #1adba1;
+    padding: 40px 20px;
+}
+
+.contact a {
+    color: #6179e4;
+    padding: 40px 20px;
+}
+
+.animate {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+/*=== FADE IN LEFT ===*/
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-10%, 0, 0);
+    transform: translate3d(-10%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-10%, 0, 0);
+    transform: translate3d(-10%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+.fade-delay {
+    -webkit-animation-delay: 0.25s;
+    -moz-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+}
+
+
+.floating { 
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  -5px); }
+    50%  { transform: translate(0, 15px); }
+    100% { transform: translate(0, -5px); }
+}
+
+.enlarge {
+    transition: transform .2s; /* Animation */
+}
+  
+.project-card1:hover, .project-card2:hover, .swe-card:hover {
+    transform: scale(1.05);
 }

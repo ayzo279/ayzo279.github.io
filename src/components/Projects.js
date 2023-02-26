@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Container, Row, Col} from "react-bootstrap";
+import Case from './Case.js';
 // import { Tabs, Tab } from '@mui/material';
 import Image from "react-bootstrap/Image";
 
@@ -13,17 +14,18 @@ import echo from '../assets/img/echo.png';
 import deluge from '../assets/img/deluge.png';
 import music from '../assets/img/music.png';
 import starcolor from '../assets/img/starcolor.png';
-import lowell from '../assets/img/lowellgo.png';
+import lowell from '../assets/img/lowell.png';
 import mslogo from '../assets/img/mslogo.png';
 
 export const Projects = () => {
+    const [modalShow, setModalShow] = React.useState(false);
     return (
         <Container className="projects" id="projects">
             <h2>PROJECTS</h2>
             <h3>UX/UI Design</h3>
             <Row className="project-card1 gx-0">
                 <Col sm={4} className="amplifi-banner">
-                    <Image src={amplifi} style={{width:"90%"}}/>
+                    <Image src={amplifi} style={{width:"80%"}}/>
                 </Col>
                 <Col sm={8}>
                     <Row>
@@ -114,7 +116,7 @@ export const Projects = () => {
                         <p style={{padding:0}}>
                         Python library for performing forward and reverse mode variants of automatic differentiation
                         </p>
-                        <a href="https://github.com/ayzo279/crimsonconnect" style={{textDecoration:'none', color:'inherit'}}>
+                        <a href="https://github.com/ayzo279/ad39" style={{textDecoration:'none', color:'inherit'}}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" fill="currentColor" style={{maxWidth:"3em", borderStyle:"solid", padding:"5px", margin:"auto", borderRadius:"0.5em", borderWidth:"0.2em"}}class="bi bi-github" viewBox="0 0 16 16">
                         <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
                         </svg>
@@ -141,7 +143,7 @@ export const Projects = () => {
                 </Col>
             </Row>
             <h3>Creative Coding and Graphic Design</h3>
-            <p style={{fontSize:"18px"}}>A selection of data visualization and generative art sketches created using p5.js on OpenProcessing</p>
+            <p style={{fontSize:"18px", fontFamily: "MontserratLight"}}>A selection of data visualization and generative art sketches created using p5.js on OpenProcessing</p>
             <Row>
             <Col xl={3} lg={6} md={6} sm={6} xs={12}>
                     <div className="design">
@@ -160,7 +162,7 @@ export const Projects = () => {
                     <Image src={deluge} className="p5"/>
                     <div className="design-desc">
                         <h4>deluge</h4>
-                        <p style={{fontFamily:"MontserratLight"}}>data visualization piece for mental health awareness using data obtained from the CDC</p>
+                        <p style={{fontFamily:"MontserratLight", fontSize: "14px"}}>data visualization piece for mental health awareness using data obtained from the CDC</p>
                         <a href="https://www.oppr.org/s/m7Coi2SJ" style={{textDecoration:'none', color:'inherit'}}>
                         <p style={{fontFamily: "MontserratSB", textDecoration:"underline", fontSize: "12px", margin:"50px 0 0 0"}}>view</p>
                         </a>
@@ -172,7 +174,7 @@ export const Projects = () => {
                     <Image src={music} className="p5"/>
                     <div className="design-desc">
                         <h4>emotion in music</h4>
-                        <p style={{fontFamily:"MontserratLight"}}>sound visualizer using data from UC Berkelery study to depict emotional associations with select musical pieces</p>
+                        <p style={{fontFamily:"MontserratLight", fontSize: "14px"}}>sound visualizer using data from UC Berkelery study to depict emotional associations with select musical pieces</p>
                         <a href="https://www.oppr.org/s/RgcrmhNf" style={{textDecoration:'none', color:'inherit'}}>
                         <p style={{fontFamily: "MontserratSB", textDecoration:"underline", fontSize: "12px", margin:"50px 0 0 0"}}>view</p>
                         </a>
@@ -184,7 +186,7 @@ export const Projects = () => {
                     <Image src={starcolor} className="p5"/>
                     <div className="design-desc">
                         <h4>starcolor</h4>
-                        <p style={{fontFamily:"MontserratLight"}}>a color-matching minigame</p>
+                        <p style={{fontFamily:"MontserratLight", fontSize: "14px"}}>a color-matching minigame</p>
                         <a href="https://www.oppr.org/s/IOS4FTjX" style={{textDecoration:'none', color:'inherit'}}>
                         <p style={{fontFamily: "MontserratSB", textDecoration:"underline", fontSize: "12px", margin:"50px 0 0 0"}}>view</p>
                         </a>
@@ -192,7 +194,7 @@ export const Projects = () => {
                     </div>
                 </Col>
             </Row>
-            <p style={{fontSize:"18px"}}>A selection of designs created using Adobe Creative Suite</p>
+            <p style={{fontSize:"18px", fontFamily: "MontserratLight"}}>A selection of designs created using Adobe Creative Suite</p>
             <Row style={{display: "flex", alignItems:"center",justifyContent: "center"}}>
             <Col xl={3} lg={6} md={6} sm={6} xs={12}>
                     <div className="design">
