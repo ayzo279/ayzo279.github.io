@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.32a4b48c.chunk.css",
-  "main.js": "/static/js/main.f7955d50.chunk.js",
-  "main.js.map": "/static/js/main.f7955d50.chunk.js.map",
+  "main.css": "/static/css/main.79d941bd.chunk.css",
+  "main.js": "/static/js/main.b63755bd.chunk.js",
+  "main.js.map": "/static/js/main.b63755bd.chunk.js.map",
   "static/css/1.6b199b27.chunk.css": "/static/css/1.6b199b27.chunk.css",
   "static/js/1.36d2be3c.chunk.js": "/static/js/1.36d2be3c.chunk.js",
   "static/js/1.36d2be3c.chunk.js.map": "/static/js/1.36d2be3c.chunk.js.map",
@@ -10,7 +10,7 @@
   "static/media/Andy_Zhuo_resume.pdf": "/static/media/Andy_Zhuo_resume.d2dc2960.pdf",
   "static/media/profile.png": "/static/media/profile.69e325da.png",
   "static/media/profile2.png": "/static/media/profile2.e1593794.png",
-  "static/media/App.css": "/static/media/Montserrat-Bold.a8de8ffe.ttf",
+  "static/media/App.css": "/static/media/Montserrat-Medium.5f797490.ttf",
   "static/media/lightbulb2.png": "/static/media/lightbulb2.f8a7a259.png",
   "static/media/lightswitch.png": "/static/media/lightswitch.b61a2ece.png",
   "static/media/lightbulb-2.png": "/static/media/lightbulb-2.4bc1f892.png",
@@ -26,9 +26,9 @@
   "static/media/starcolor.png": "/static/media/starcolor.723e56cf.png",
   "static/media/lowell.png": "/static/media/lowell.5943cfd9.png",
   "static/media/mslogo.png": "/static/media/mslogo.94a197e0.png",
+  "static/css/main.79d941bd.chunk.css.map": "/static/css/main.79d941bd.chunk.css.map",
   "static/css/1.6b199b27.chunk.css.map": "/static/css/1.6b199b27.chunk.css.map",
-  "static/css/main.32a4b48c.chunk.css.map": "/static/css/main.32a4b48c.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.0116e564cf0d5d90f1337e1e6124b290.js": "/precache-manifest.0116e564cf0d5d90f1337e1e6124b290.js",
+  "precache-manifest.4d93722ab3f2925118216ccea3a237bf.js": "/precache-manifest.4d93722ab3f2925118216ccea3a237bf.js",
   "service-worker.js": "/service-worker.js"
 }
